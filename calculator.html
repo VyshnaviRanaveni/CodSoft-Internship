@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <script type="text/javascript" src="src.js" >
+    </script>
+    <table class="calci">
+        <tr>
+            <td><input type="button" value="9" onSubmit="show('9')"></td>
+            <td><input type="button" value="8" onSubmit="show('8')"></td>
+            <td><input type="button" value="7" onSubmit="show('7')"></td>
+            <td><input type="button" value="=" onSubmit="compute()" id="bn"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="6" onSubmit="show('6')"></td>
+            <td><input type="button" value="5" onSubmit="show('5')"></td>
+            <td><input type="button" value="4" onSubmit="show('4')"></td>
+            <td><input type="button" value="/" onSubmit="show('/')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="3" onSubmit="show('3')"></td>
+            <td><input type="button" value="2" onSubmit="show('2')"></td>
+            <td><input type="button" value="1" onSubmit="show('1')"></td>
+            <td><input type="button" value="*" onSubmit="show('*')"></td>
+         </tr>
+         <tr>
+            <td><input type="button" value="0" onSubmit="show('0')"></td>
+            <td><input type="button" value="+" onSubmit="show('+')"></td>
+            <td><input type="button" value="-" onSubmit="show('-')"></td>
+            <td><input type="button" value="." onSubmit="show('.')"></td>
+         </tr>
+         <tr>
+            <td colspan="3">
+                <input type="text" id="d"></td>
+                <td><input type="button" value="val" onSubmit="validatescreen()" id="bn"></td>
+        </tr>
+    </table>
+</body>
+</html>
+            
+            
+            
